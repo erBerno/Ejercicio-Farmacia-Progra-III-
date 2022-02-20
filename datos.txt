@@ -1,0 +1,2 @@
+Paracetamol;35;5
+Dioxadol;10;3

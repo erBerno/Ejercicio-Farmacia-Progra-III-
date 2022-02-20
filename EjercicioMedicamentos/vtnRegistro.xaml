@@ -1,0 +1,20 @@
+﻿<Window x:Class="EjercicioMedicamentos.vtnRegistro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjercicioMedicamentos"
+        mc:Ignorable="d"
+        Title="vtnRegistro" Height="400" Width="400">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,24,0,0" TextWrapping="Wrap" Text="REGISTRO DE MEDICAMENTOS" VerticalAlignment="Top" FontSize="24" FontFamily="Consolas"/>
+        <TextBlock HorizontalAlignment="Left" Margin="42,111,0,0" TextWrapping="Wrap" Text="Inserta el nombre:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbNombre" HorizontalAlignment="Left" Margin="167,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <TextBlock HorizontalAlignment="Left" Margin="42,173,0,0" TextWrapping="Wrap" Text="Inserta la cantidad:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbCantidad" HorizontalAlignment="Left" Margin="167,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <TextBlock HorizontalAlignment="Left" Margin="42,237,0,0" TextWrapping="Wrap" Text="Inserta el precio: " VerticalAlignment="Top"/>
+        <TextBox x:Name="txbPrecio" HorizontalAlignment="Left" Margin="167,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <Button x:Name="btnRegistrar" Content="Registrar" HorizontalAlignment="Center" Margin="0,293,0,0" VerticalAlignment="Top" Height="46" Width="120" Click="btnRegistrar_Click"/>
+
+    </Grid>
+</Window>

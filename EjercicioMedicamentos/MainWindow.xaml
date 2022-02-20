@@ -1,0 +1,15 @@
+﻿<Window x:Class="EjercicioMedicamentos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjercicioMedicamentos"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="600">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="169,34,0,0" TextWrapping="Wrap" Text="FARMACIA" VerticalAlignment="Top" Height="53" Width="276" TextAlignment="Center" FontSize="48" FontFamily="Consolas" FontWeight="Bold"/>
+        <Button x:Name="btnVerStock" Content="VER STOCK" HorizontalAlignment="Left" Margin="123,117,0,0" VerticalAlignment="Top" Height="73" Width="166" Click="btnVerStock_Click"/>
+        <Button x:Name="btnRegistrar" Content="REGISTRAR" HorizontalAlignment="Left" Margin="330,117,0,0" VerticalAlignment="Top" Width="166" Height="73" Click="btnRegistrar_Click"/>
+
+    </Grid>
+</Window>
